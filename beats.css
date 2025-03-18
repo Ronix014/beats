@@ -101,3 +101,30 @@ audio {
         flex: 1 1 100%;
     }
 }
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #cf87f8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+#backToTop:hover {
+    background-color: #a05db0;
+}
+
+.audio-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.audio-item {
+    margin-bottom: 10px;
+}
