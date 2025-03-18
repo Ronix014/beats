@@ -107,7 +107,7 @@ audio {
     right: 20px;
     padding: 10px 15px;
     font-size: 14px;
-    background-color: #cf87f8;
+    background-color: #4b0082;
     color: white;
     border: none;
     border-radius: 5px;
@@ -116,7 +116,7 @@ audio {
 }
 
 #backToTop:hover {
-    background-color: #a05db0;
+    background-color: #6a0dad;
 }
 
 .audio-section {
