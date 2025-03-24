@@ -21,7 +21,6 @@ h1 {
 
 .nav {
     background: #4b0082;
-    padding: 0;
 }
 
 .nav ul {
@@ -45,11 +44,12 @@ h1 {
     font-weight: bold;
 }
 
-.nav a:hover, .nav .active a {
+.nav a:hover,
+.nav .active a {
     background-color: #6a0dad;
     border-radius: 5px;
+    color: #1de9df;
 }
-
 /* Section Styles */
 section {
     width: 80%;
